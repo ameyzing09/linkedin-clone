@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+nav {
+    background-color: #283E4A;
+    ;
+}
+
+.navbar {
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+}
+
+.logo {
+    position: absolute;
+    /* background-color: white; */
+    width: 2.5em;
+    top: 8px;
+    left: 7em;
+
+}
+
+.search-bar {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    left: 150px;
+}
+
+#search {
+    /* position: relative; */
+    margin-top: 7px;
+    margin-left: 20px;
+    padding-left: 40px;
+    background-color: #E1E9EE;
+    width: 55%;
+    height: 35px;
+    border-radius: 5px;
+    /* left: 100px; */
+}
+
+.search-bar img {
+    position: absolute;
+    width: 25px;
+    top: 15px;
+    left: 30px;
+}
+
+.navlist {
+    position: relative;
+    bottom: 50px;
+    float: right;
+    right: 15%;
+    height: 60px;
+}
+
+.navlist-div {
+    display: inline-block;
+    height: 55px;
+    padding: 2px 7px;
+
+}
+
+.navlist a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-option {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.navlist div i,
+a,
+img {
+    display: block;
+}
+
+.navlist div a {
+    font-size: 12px;
+}
+
+/* .profile-pic-div{
+    width: 50px;
+} */
+
+.profile-pic {
+    width: 5%;
+}
+
+/* .view-profile{
+    display: inline-block;
+    color: white;
+} */
+
+.work-grid {
+    right: 50px;
+    height: 55px;
+    border-left: 1px solid gray;
+}
+
+.premium {
+    color: #CCC19C;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.premium p {
+    text-align: center;
+}
+
+.click-button {
+    border-bottom: 1px solid white;
+}
+
+.profile {
+    display: inline-block;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10%;
+
+}
+
+.wall-post {
+    display: inline-block;
+    width: 500px;
+    /* height: 700px; */
+    border: .1px solid gray;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 3%;
+}
+
+.suggestion {
+    padding: 12px 48px 12px 16px;
+    font-size: 12px;
+    border-bottom: 0.1px solid lightgray;
+}
+
+.name{
+    font-weight: 900;
+}
+
+.more-option{
+    float: right;
+    font-size: 16px;
+}
+
+.follow-page{
+    text-align: left;
+    padding: 12px 10px 0;
+}
+
+.follow-page img{
+    width: 50px;
+    float: left;
+}
+
+.follow-page-title{
+    font-size: 14px;
+}
+
+.linkedin-profile-info{
+    font-size: 12px;
+    color: #666666;
+    font-weight: 300;
+}
+
+.post-details{
+    width:auto;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px;
+}
+.see-more{
+    color: #666666;
+    cursor: pointer;
+}
+
+.post-image{
+    width: 100%;
+    padding: 0;
+}
+
+.feeds {
+    display: inline-block;
+    background-color: white;
+    margin-left: 3%;
+}
